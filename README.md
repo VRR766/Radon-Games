@@ -1,33 +1,54 @@
-<p align="center">
-  <kbd>
-    <img width="100px" src="https://avatars.githubusercontent.com/u/107269758">
-  </kbd>
-</p>
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/icons/128.png" />
 
-<h1 align="center">
-  Radon Games
-</h1>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f59e0b" />
+    <title>Radon Games</title>
+    <meta property="og:title" content="Radon Games" />
+    <meta property="og:image" content="/icons/128.png" />
+    <meta
+      name="description"
+      content="An open-source unblocked games website built with simplicity in mind."
+    />
+    <meta
+      property="og:description"
+      content="An open-source unblocked games website built with simplicity in mind."
+    />
+    <meta
+      name="keywords"
+      content="radon,games,radon games,unblocked,unblocked games,html games,html5 games,flash games,flashplayer games,proxy,io"
+    />
 
-<p align="center">
-  An open-source unblocked games website built with simplicity in mind.
-</p>
-  
-- 📈 Play from our **rapidly growing** selection of games
-- 🏫 **Unblock websites** with our built in web proxy
-- 🫣 **Hide from teachers** using the tab cloak setting
+    <!-- Google Products -->
+    <script
+      defer
+      crossorigin="anonymous"
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8517735295733237"
+    ></script>
+    <script
+      defer
+      src="https://www.googletagmanager.com/gtag/js?id=G-0GR0HN1RFL"
+    ></script>
 
-### Installation
+    <script defer>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-```bash
-git clone https://github.com/Radon-Games/Radon-Games.git
-cd Radon-Games
-pnpm install
-pnpm run build
-pnpm run preview
-```
+      gtag("config", "G-0GR0HN1RFL");
+    </script>
 
-### Where to get help
-
-For questions and suggestions please join our [Discord server](https://discord.gg/C2fbK35Rhg)
-
-For any website/game issues please create a new GitHub issue
+    <script src="/uv/uv.bundle.js" defer></script>
+    <script src="/uv/uv.config.js" defer></script>
+  </head>
+  <body class="scroll-smooth bg-bg-primary font-medium text-text-primary">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
